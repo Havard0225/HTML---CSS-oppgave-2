@@ -43,9 +43,12 @@ button{
     border-radius: 20px; 
     padding: .5rem 1rem;
     margin-top: 3rem;
+    transition: transform 250ms;
 }
 
-
+button:hover, :focus{
+    transform: scale(1.1);
+}
 
 #sedan-btn{
     color: hsl(31, 77%, 52%);
